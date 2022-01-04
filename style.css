@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-div{
     width: 50%;
@@ -29,4 +30,20 @@ section{
 .banner-top{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.banner-middle{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-div{
+    width: 50%;
+    padding-left: 5%;
+}
+.resume{
+    text-transform: uppercase;
+}
+.dream-div p{
+    padding-right: 50px;
 }
